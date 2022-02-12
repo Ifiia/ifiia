@@ -1389,6 +1389,10 @@ header.main-header .right-side li.volunter a {
   border: 10px solid #edeaea;
   margin-bottom: 13px;
 }
+.our-staff .single-staff .img img {
+  height: 300px;
+  width: 100%;
+}
 .our-staff .single-staff .img .opacity {
   position: absolute;
   width: 100%;
@@ -1955,6 +1959,10 @@ footer .section-middle p {
 /*====================== Inner Page Banner ==================*/
 .inner-banner {
   background: url(../images/inner-page/1.jpg) no-repeat center;
+  background-size: cover;
+}
+#events.inner-banner {
+  background: url(../images/inner-page/1-1.jpg) no-repeat center;
   background-size: cover;
 }
 .inner-banner.m-fix {
